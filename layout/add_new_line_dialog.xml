@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="300dp">
+
+    <EditText
+        android:id="@+id/Line_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:fadingEdgeLength="3dp"
+        android:fontFamily="@font/amarante"
+        android:freezesText="false"
+        android:hint="@string/line_name"
+        android:includeFontPadding="true"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:shadowColor="#00BCD4"
+        android:textColor="@color/hint"
+        android:textColorHint="@color/hint"
+        app:layout_constraintBottom_toTopOf="@+id/Worker_assigned"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Worker_assigned"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        android:background="@drawable/btn_show"
+        android:ems="10"
+        android:fadingEdgeLength="3dp"
+        android:fontFamily="@font/amarante"
+        android:freezesText="false"
+        android:hint="@string/worker_assigned"
+
+        android:includeFontPadding="true"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="5dp"
+        android:shadowColor="#00BCD4"
+        android:textColor="@color/cardview_light_background"
+        android:textColorHint="@color/cardview_light_background"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/Amount_LINE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Line_name" />
+
+    <EditText
+        android:id="@+id/Amount_LINE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"
+
+        android:ems="10"
+        android:fadingEdgeLength="3dp"
+        android:fontFamily="@font/amarante"
+        android:freezesText="false"
+        android:hint="@string/amount"
+        android:includeFontPadding="true"
+        android:inputType="number"
+        android:paddingLeft="10dp"
+        android:shadowColor="#00BCD4"
+        android:textColor="@color/hint"
+        android:textColorHint="@color/hint"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Worker_assigned" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
