@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    android:label="@string/Pending_Renewal_byDate"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.vishwanathlokare.VendorHelper.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.vishwanathlokare.VendorHelper.ui.Pending_Customer.GalleryFragment"
+        android:label="@string/Paid_customer"
+        tools:layout="@layout/fragment_pending_customer" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.vishwanathlokare.VendorHelper.ui.Pending_Renewal.SlideshowFragment"
+        android:label="@string/Pending_Fees"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_renewal"
+        android:name="com.vishwanathlokare.VendorHelper.ui.ItemFragment"
+        android:label="@string/Pending_Renewal_byDate"
+        tools:layout="@layout/fragment_item_list" />
+    <fragment
+        android:id="@+id/History"
+        android:name="com.vishwanathlokare.VendorHelper.ui.HIstory"
+        android:label="@string/History"
+        tools:layout="@layout/fragment_h_istory" />
+    <fragment
+        android:id="@+id/new_customer_Fragment"
+        android:name="com.vishwanathlokare.VendorHelper.ui.new_customer_Fragment"
+        android:label="@string/New_Customer"
+        tools:layout="@layout/fragment_new_customer_" />
+    <fragment
+        android:id="@+id/complaint_Box_Fragment"
+        android:name="com.vishwanathlokare.VendorHelper.ui.Complaint_Box_Fragment"
+        android:label="@string/Comlaint_box"
+        tools:layout="@layout/fragment_complaint__box_" />
+    <fragment
+        android:id="@+id/update_Fragment2"
+        android:name="com.vishwanathlokare.VendorHelper.ui.update_Fragment"
+        android:label="@string/Update"
+        tools:layout="@layout/fragment_new_customer_" />
+    <fragment
+        android:id="@+id/customer_History"
+        android:name="com.vishwanathlokare.VendorHelper.ui.Customer_History"
+        android:label="@string/customer"
+        tools:layout="@layout/fragment_customer__history_list" />
+    <fragment
+        android:id="@+id/nav_worker"
+        android:name="com.vishwanathlokare.VendorHelper.ui.Paper_fragment"
+        android:label="@string/Date" />
+    <fragment
+        android:id="@+id/nav_line"
+        android:name="com.vishwanathlokare.VendorHelper.ui.LineFragment"
+        android:label="@string/Line" />
+    <fragment
+        android:id="@+id/nav_line_customer"
+        android:name="com.vishwanathlokare.VendorHelper.ui.Line_customer"
+        android:label="@string/customer" />
+</navigation>

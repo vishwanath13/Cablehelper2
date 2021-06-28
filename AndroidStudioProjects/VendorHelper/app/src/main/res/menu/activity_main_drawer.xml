@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="all" >
+        <item
+            android:id="@+id/nav_home"
+
+            android:icon="@drawable/ic_baseline_house_24"
+            android:title="@string/menu_home" />
+
+        <item
+            
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_baseline_people_alt_24"
+            android:title="@string/Pending_Fees" />
+        <item
+            android:id="@+id/nav_renewal"
+            android:icon="@drawable/ic_baseline_timer_24"
+            android:title="@string/Pending_Renewal_byDate" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_baseline_sentiment_satisfied_alt_24"
+            android:title="@string/Paid_customer" />
+        <item
+            android:id="@+id/History"
+            android:icon="@drawable/ic_baseline_calendar_today_24"
+            android:title="@string/History" />
+        <item
+            android:id="@+id/complaint_Box_Fragment"
+            android:icon="@drawable/ic_baseline_insert_comment_24"
+            android:title="@string/complaint_box" />
+        <item
+            android:id="@+id/nav_worker"
+            android:icon="@drawable/ic_baseline_check_box_24"
+            android:title="@string/presenty" />
+        <item
+            android:id="@+id/nav_line"
+            android:icon="@drawable/ic_baseline_format_line_spacing_24"
+            android:title="@string/Line" />
+
+    </group>
+</menu>

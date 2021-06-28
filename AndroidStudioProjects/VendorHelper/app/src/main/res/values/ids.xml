@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="Delete" type="id" />
+    <item name="complaint_text" type="id" />
+    <item name="update" type="id" />
+</resources>

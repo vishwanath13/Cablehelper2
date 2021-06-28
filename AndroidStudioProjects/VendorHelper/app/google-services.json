@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "370249981919",
+    "firebase_url": "https://cablehelper-302fb.firebaseio.com",
+    "project_id": "cablehelper-302fb",
+    "storage_bucket": "cablehelper-302fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370249981919:android:94b7096d5f7b3e1e85ee6a",
+        "android_client_info": {
+          "package_name": "com.vishwanathlokare.VendorHelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "370249981919-gfrlfa450nu1mdbgb25ihfopbmkv230e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vishwanathlokare.VendorHelper",
+            "certificate_hash": "1174f23220d7bfbadab7fb4c2badd1b6aacf41a7"
+          }
+        },
+        {
+          "client_id": "370249981919-gse52v26hfkfqugk8menai0a4pcbqn22.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4eu7CCPLuUaum8JEb7oAek24gTgncyHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "370249981919-gse52v26hfkfqugk8menai0a4pcbqn22.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

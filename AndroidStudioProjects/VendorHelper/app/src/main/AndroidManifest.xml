@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vishwanathlokare.VendorHelper">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <application
+        android:name="com.vishwanathlokare.VendorHelper.App"
+        android:testOnly="false"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:backupInForeground="true"
+
+        android:fullBackupContent="@xml/my_backup_rules">
+
+        <activity
+            android:name="com.vishwanathlokare.VendorHelper.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+
+
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <data android:mimeType="application/vnd.google-apps.drive-sdk.370249981919" />
+                <action android:name="com.google.android.apps.drive.DRIVE_OPEN" />
+                <data android:mimeType="application/pdf" />
+                <data android:mimeType="text/plain" />
+
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data android:name="com.google.android.apps.drive.APP_ID" android:value="id=370249981919" />
+
+        <receiver android:name=".PdfUtills.AlarmReceiver"></receiver>
+    </application>
+
+</manifest>
